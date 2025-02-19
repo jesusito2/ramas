@@ -1,0 +1,8 @@
+hosts: localhost 
+become: true 
+tasks:
+name: instalar devecot 
+dnf: 
+name: tree
+state: state
+
